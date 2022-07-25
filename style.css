@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("./assest/xinnie-teo-final-final.jpg") top center/ cover no-repeat;
+    
+}
+
+body::before{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+}
+
+#MyClockDisplay{
+    position: absolute;
+    top: 40%;
+    left: 38%;
+    color: white;
+    font-size: 60px;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 8px;
+}
